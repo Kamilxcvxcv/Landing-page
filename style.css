@@ -31,7 +31,7 @@ a {
     padding: 100px;
     margin-left: -10px;
     margin-right: -10px;
-    justify-content: space-between;
+    justify-content: space-evenly
 }
 .place-holder {
     background-color: grey;
@@ -59,6 +59,7 @@ a {
     justify-content: center;
     gap: 52px;
     text-align: center;
+    margin-bottom: 90px;
 
 }
 .info {
@@ -70,4 +71,25 @@ a {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.quote-text {
+    max-width: 700px
+   
+}
+.zbrodniarz {
+    align-self: flex-end;
 }
